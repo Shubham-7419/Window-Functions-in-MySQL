@@ -3,9 +3,13 @@ In MySQL, window functions are powerful tools that allow you to perform calculat
 
 ## 1. Syntax
 window_function_name(expression) OVER (
+
     [PARTITION BY partition_definition]
+    
     [ORDER BY order_definition]
+    
     [frame_definition]
+    
 )
 
 ## Components:
